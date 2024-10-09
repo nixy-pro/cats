@@ -27,7 +27,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://vip.nixystore.my.id/anggabadol/menu/menu.zip
+    wget https://vip.nixystore.my.id/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
