@@ -314,13 +314,13 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-1001857971844"
-KEY=""
+CHATID="-1001850051195"
+KEY="7323628077:AAH0xnx4WDR9xzaXxPFTygL_kT5VBwTvNHw"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>PREMIUM AUTOSCRIPT</b>
+<b>PREMIUM AUTOSCRIPT INSTALLED</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <code>User     :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
@@ -330,7 +330,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>AUTOSCRIPT TUNNELING  VPN-STORE</b>
+<b>AUTOSCRIPT TUNNELING  NIXY STORE</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Palestina</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://wa.me/+6281324481206"}]]}' 
