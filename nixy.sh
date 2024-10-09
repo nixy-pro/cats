@@ -90,7 +90,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://vip.nixystore.my.id/"
+    REPO="https://izin.nixystore.my.id/"
 
 ####
 start=$(date +%s)
