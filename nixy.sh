@@ -67,7 +67,7 @@ fi
 
 # // Validate Successfull
 echo ""
-read -p "$( echo -e "Press ${GRAY}[ ${NC}${green}ENTER${NC} ${GRAY}]${NC} To start") "
+read -p "$( echo -e "PRESS ${GRAY}[ ${NC}${green}ENTER${NC} ${GRAY}]${NC} To start") "
 echo ""
 clear
 if [ "${EUID}" -ne 0 ]; then
@@ -90,7 +90,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/"
+    REPO="https://vip.nixystore.my.id/"
 
 ####
 start=$(date +%s)
@@ -277,7 +277,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/register"
+izinsc="https://vip.nixystore.my.id/register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -314,8 +314,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6348824977"
-KEY="6854390843:AAHnygrqUOSq-5spVPBBrOvBMy4xcdUBPBU"
+CHATID="3776364438"
+KEY="6854390843:dhvxjhhdj-5spVPBBrOvBMy4xcdUBPBU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -330,10 +330,10 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>AnggaBadol  VPN-STORE</b>
+<b>AUTOSCRIPT TUNNELING  VPN-STORE</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6285664271447"}]]}' 
+<i>Automatic Notifications From Palestina</i>
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://wa.me/+6281324481206"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -540,7 +540,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://vip.nixystore.my.id/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
