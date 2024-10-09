@@ -1,22 +1,18 @@
-## UPGRADE FOR DEBIAN
-Masukkan perintah dibawah jika anda menggunakan OS Debian Version 9 atau 10
+### UPGRADE FOR DEBIAN
 ```
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
 
-##  UPGRADE FOR UBUNTU
-Masukkan perintah dibawah jika anda menggunakan OS Ubuntu Version 18 atau 20
+###  UPGRADE FOR UBUNTU
 ```
 apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
 
-## INSTALL SCRIPT 
-Masukkan perintah dibawah untuk menginstall Autoscript Premium
+### INSTALL SCRIPT 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/setup.sh && chmod +x setup.sh && ./setup.sh
+apt install -y && apt update -y && apt upgrade -y && wget -q https://vip.nixystore.my.id/nixy.sh && chmod +x nixy.sh && ./nixy.sh
 ```
 
 ## UPDATE SCRIPT
-Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://vip.nixystore.my.id/nixystore.sh && chmod +x nixystore.sh && ./nixystore.sh
