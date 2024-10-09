@@ -33,8 +33,8 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer NIXY Projct - VPN STORE ${YELLOW}(${NC}${green} NIXY STORE ID ${NC}${YELLOW})${NC}"
 echo -e "  This Will Quick Setup VPN Server On Your Server"
+echo -e "  Developer NIXY Projct - VPN STORE ${YELLOW}(${NC}${green} NIXY STORE ID ${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
