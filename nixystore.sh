@@ -40,7 +40,7 @@ clear
 
 echo -e ""
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
-echo -e "\e[1;97;101m            » UPDATE SCRIPT «             \033[0m"
+echo -e "\e[1;97;101m             UPDATE SCRIPT NIXY STORE             \033[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 echo -e "\033[1;91mUpdate Script Service\033[1;37m"
