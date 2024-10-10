@@ -1,12 +1,12 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Develovers » NIXY Project
+# telegram   » https://nixy_store
+# whatsapp   » wa.me/+6281324481206
+# Email      » info@nixystore.my.id
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » AnggaBadol-Store
-# Email      » AnggaBadol-Store@gmail.com
-# telegram   » https://t.me/AnggaBadol-Store
-# whatsapp   » wa.me/+6285664271447
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# AnggaBadol-Store
+# NIXY Project
 
 NS=$( cat /etc/xray/dns )
 PUB=$( cat /etc/slowdns/server.pub )
@@ -18,13 +18,13 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/bot/bot.zip
+wget https://vip.nixystore.my.id/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/bot/kyt.zip
+wget https://vip.nixystore.my.id/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
